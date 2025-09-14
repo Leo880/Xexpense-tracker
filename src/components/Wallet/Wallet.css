@@ -1,4 +1,4 @@
-.wallet {
+/*.wallet {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -6,7 +6,7 @@
 }
 
 .wallet .card {
-  flex: 1 1 200px; /* grow/shrink, min width 200px */
+  flex: 1 1 200px; 
   background: #fff;
   padding: 1rem;
   border-radius: 8px;
@@ -37,4 +37,70 @@
 
 .wallet .card button:hover {
   background: #1565c0;
+}
+*/
+
+.wallet {
+  margin: 1rem 0;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #3a3a3a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.income-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.expense-btn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.income-btn:hover {
+  background: #43a047;
+}
+
+.expense-btn:hover {
+  background: #d32f2f;
 }
