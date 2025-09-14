@@ -2,12 +2,12 @@
 import { useState, useEffect } from "react";
 import Modal from "react-modal";
 import { SnackbarProvider, useSnackbar } from "notistack";
-import Wallet from "./components/Wallet";
-import IncomeForm from "./components/IncomeForm";
-import ExpenseForm from "./components/ExpenseForm";
-import ExpenseList from "./components/ExpenseList";
-import SummaryChart from "./components/SummaryChart";
-import TrendsChart from "./components/TrendsChart";
+import Wallet from "./components/Wallet/Wallet";
+import IncomeForm from "./components/IncomeForm/IncomeForm";
+import ExpenseForm from "./components/ExpenseForm/ExpenseForm";
+import ExpenseList from "./components/ExpenseList/ExpenseList";
+import SummaryChart from "./components/SummaryChart/SummaryChart";
+import TrendsChart from "./components/TrendsChart/TrendsChart";
 import "./App.css";
 
 Modal.setAppElement("#root");
